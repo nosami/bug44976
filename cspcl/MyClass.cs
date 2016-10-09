@@ -5,6 +5,7 @@ namespace cspcl
 	{
 		public MyClass()
 		{
+			var x = new fspcl.Class1().X;
 		}
 	}
 }

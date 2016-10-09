@@ -1,5 +1,5 @@
 ﻿namespace fspcl
 
 type Class1() = 
-    member this.X = cspcl.MyClass()
+    member this.X = "From F#"
 

@@ -39,11 +39,5 @@
     <Compile Include="Component1.fs" />
     <Compile Include="Script.fsx" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\cspcl\cspcl.csproj">
-      <Project>{A207498A-F9C5-4224-A606-ABB13B8487ED}</Project>
-      <Name>cspcl</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\FSharp\Microsoft.Portable.FSharp.Targets" />
 </Project>
